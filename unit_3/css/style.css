@@ -3,7 +3,7 @@
 body {
 	font font-family: helvetica, arial, sans-serif;
 	font-size: 20px;
-	color:  ;
+	color: ffffff;
 	line-height: 1.3;
 	background: url (images/city.jpg);
 	background-size: cover;
@@ -15,6 +15,10 @@ h1 {
 	color: ffffff;
 
 
+}
+
+#slogan {
+	font-style: italic;
 }
 
 a {
