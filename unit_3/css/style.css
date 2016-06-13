@@ -1,6 +1,5 @@
 * {
-	padding: 0;
-	margin: 0;
+	background-image: images/city.jpg;
 }
 
 body {
@@ -8,6 +7,7 @@ body {
 	font-size: 20px;
 	color:  ;
 	line-height: 1.3;
+	
 }
 
 
