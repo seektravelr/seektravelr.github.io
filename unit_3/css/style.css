@@ -1,5 +1,12 @@
 
 
+.hero {
+	background: ("images/beach.jpg")
+
+}
+
+
+
 body {
 	background-image: url("images/beach.jpg");
 	background-size: cover;
