@@ -3,7 +3,7 @@
 body {
 	background-image: url("../images/city.jpg");
 	background-size: cover;
-	background-opacity: .5;
+	background-opacity: 0.2;
 	background-position: center;
 	font-family: Tahoma, Helvetica, sans-serif; 
 	font-size: 20px;
