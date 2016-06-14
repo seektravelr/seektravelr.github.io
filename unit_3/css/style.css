@@ -12,7 +12,7 @@ body {
 	background-image: url("images/beach.jpg");
 	background-size: cover;
 	background-position: center;
-	font font-family: helvetica; 
+	font-family: Tahoma, Helvetica, sans-serif; 
 	font-size: 20px;
 	color: #52042B;
 	line-height: 1.3;
