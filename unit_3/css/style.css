@@ -1,7 +1,9 @@
 
 
 .hero {
-	background: ("images/beach.jpg")
+	background: ("images/beach.jpg") no-repeat center center;
+	background-size: cover;
+
 
 }
 
