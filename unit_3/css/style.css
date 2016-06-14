@@ -4,13 +4,11 @@
 	background: ("images/beach.jpg") no-repeat center center;
 	background-size: cover;
 
-
 }
 
 
 
 body {
-	background-image: url("images/beach.jpg");
 	background-size: cover;
 	background-position: center;
 	font font-family: helvetica, arial, sans-serif;
