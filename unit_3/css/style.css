@@ -9,9 +9,10 @@
 
 
 body {
+	background-image: url("images/beach.jpg");
 	background-size: cover;
 	background-position: center;
-	font font-family: helvetica, arial, sans-serif;
+	font font-family: helvetica; 
 	font-size: 20px;
 	color: #52042B;
 	line-height: 1.3;
