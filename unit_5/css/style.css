@@ -1,57 +1,36 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:400,700);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-
-
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	background-image: url("../images/travelgirl.jpg");
-	background-size: cover;
-	background-position: center;
 	font-family: 'Droid Sans', sans-serif;
 	font-size: 18px;
-	color: #ffffff;
+	color: #222;
 	line-height: 1.3;
 	text-align: center;
-
-
-	
 }
-
-
-
-
+section {
+	padding:4em 0;
+}
 ul {
-list-style: none;
-text-align: right;
-padding-right: 40px;
-color: #ffffff;
-
-
+	list-style: none;
+	text-align: right;
+	padding-right: 40px;
 }
-
 h1 {
 	color: #000000;
 	font-size: 100px;
-	margin-top: 300px;
 	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
 	margin-bottom: 0;
-	line-height: 40px;
-
-
-
 }
-
 h2{
 	font-size: 1.5em;
 	padding-top: .8em;
 	padding-bottom: .8em;
 	border-bottom: 4px solid black;
 	display: inline-block;
-
 }
-
 p {
 	font-weight: bold;
 	font-size: 1em;
@@ -60,13 +39,7 @@ p {
 	margin: auto;
 	margin-top: 40px;
 	letter-spacing: 1px;
-	font-family: 'Merriweather', serif;
-
-
-
-
-
-	
+	font-family: 'Merriweather', serif	
 }
 
 hr {
@@ -75,28 +48,26 @@ hr {
 	background-color: #C7444C;
 	width: 10em;
 	margin-right: 40px;
-	
-
-
-
 }
 
-
-#slogan {
-	font-style: italic;
-	font-size: 30px;
-	font-weight: bold;
-	margin: auto;
-	margin-top: 0;
-	font-family: 'Droid Sans', sans-serif;
-	
-
-	
-}
 
 a{
 	color: #ffffff;
 	text-decoration: none;
 	border-bottom: 1px solid #ffffff
 
+}
+#splash {
+	background-image: url("../images/travelgirl.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	height: 90vh;
+}
+#slogan {
+	font-style: italic;
+	font-size: 30px;
+	font-weight: bold;
+	margin: auto;
+	margin-top: 0;	
 }
