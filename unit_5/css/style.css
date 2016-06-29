@@ -11,13 +11,17 @@ body {
 }
 
 header {
-	background-color: #222;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 	
-
 }
 
 nav {
 	text-align: center;
+	padding: 20px;
+	background-color: #E8C66A;
+	border: 1px black solid;
 	padding: 20px;
 
 
@@ -26,6 +30,9 @@ nav {
 section {
 	padding:4em 0;
 	border-bottom: 1px solid #ccc;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 
 }
 ul {
@@ -102,10 +109,14 @@ nav a:hover {
 	background-position: center;
 	color: #fff;
 	height: 80vh;	
+
 }
 #splash div { 
 	float:left; 
 	margin-top: .5em; 
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
 
 
 }
@@ -117,4 +128,13 @@ nav a:hover {
 	margin-bottom: 0;
 	padding: 0;	
 	width: 700px;
+
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+
+
 }
