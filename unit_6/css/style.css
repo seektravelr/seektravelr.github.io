@@ -12,18 +12,16 @@ body {
 
 header {
 	background-color: #000000;
-	padding: 20px;
-	
+	/* padding: 20px; */
 }
 
 nav {
 	text-align: center;
 	padding: 20px;
-	background-color: #E8C66A;
+	/* background-color: #E8C66A; */
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
-
 }
 
 nav a {
@@ -41,13 +39,7 @@ nav a:hover {
 	color: #dd0000;
 
 }
-section {
-	padding: 20px;
-
-
-
-
-}
+section {padding: 5em 0;}
 ul {
 	list-style: none;
 	text-align: center;
@@ -64,11 +56,10 @@ h1 {
 	font-weight: bold;
 	margin-bottom: 0;
 	padding: 0;
-	width: 600px;
 }
 h2{
 	font-size: 1.5em;
-	padding-top: .8em;
+	/* padding-top: .8em; */
 	padding-bottom: .8em;
 	border-bottom: 4px solid black;
 	display: inline-block;
@@ -76,12 +67,11 @@ h2{
 p {
 	font-weight: bold;
 	font-size: 1em;
-	width: 500px;
-	line-height: 1.5em;
+	line-height: 1.5;
 	margin: auto;
 	margin-top: 40px;
 	letter-spacing: 1px;
-	font-family: 'Merriweather', serif	
+	font-family: 'Merriweather', serif;
 }
 
 hr {
@@ -113,10 +103,11 @@ a {
 
 #destination{
 	background-color: orange;
-	width: 400px;
-	margin: 30px;
+	width: 32.33%;
 	float: left;
-
+	margin: .5%;
+	padding: 2em;
+	min-height: 20em;
 }
 
 
@@ -130,14 +121,10 @@ a {
 	height: 80vh;	
 
 }
-#splash div { 
-	float:left; 
-	margin-top: .5em; 
-	padding: 5px;
+#splash div {
+	float:left;
+	margin-left: 4em;
 	width: 600px;
-
-
-
 }
 #slogan {
 	font-size: 22px;
@@ -145,9 +132,7 @@ a {
 	margin: auto;
 	margin-top: 0;
 	margin-bottom: 0;
-	padding: 0;	
-	width: 600px;
-
+	padding: 0;
 }
 
 footer {
