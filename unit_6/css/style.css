@@ -8,20 +8,22 @@ body {
 	color: #222;
 	line-height: 1.3;
 	text-align: center;
-}
+	}
 
 header {
 	background-color: #000000;
-	/* padding: 20px; */
+	/*padding: 20px; */
+
 }
 
 nav {
 	text-align: center;
 	padding: 20px;
-	/* background-color: #E8C66A; */
-	border: 1px black solid;
+	/*background-color: #E8C66A;*/ 
+	/*border: 1px black solid; */
 	padding: 20px;
 	float: right;
+
 }
 
 nav a {
@@ -40,6 +42,7 @@ nav a:hover {
 
 }
 section {padding: 5em 0;}
+
 ul {
 	list-style: none;
 	text-align: center;
@@ -56,14 +59,20 @@ h1 {
 	font-weight: bold;
 	margin-bottom: 0;
 	padding: 0;
+
 }
 h2{
-	font-size: 1.5em;
+	font-size: 2em;
 	/* padding-top: .8em; */
 	padding-bottom: .8em;
 	border-bottom: 4px solid black;
 	display: inline-block;
+	font-family: 'Indie Flower', cursive;
 }
+
+
+
+
 p {
 	font-weight: bold;
 	font-size: 1em;
@@ -71,7 +80,7 @@ p {
 	margin: auto;
 	margin-top: 40px;
 	letter-spacing: 1px;
-	font-family: 'Merriweather', serif;
+	font-family: 'Droid Sans', serif;
 }
 
 hr {
@@ -101,14 +110,21 @@ a {
 }
 
 
-#destination{
-	background-color: orange;
+.destination{
+	/*background-color: #E582A2;*/
+	/* color: white;*/
 	width: 32.33%;
 	float: left;
 	margin: .5%;
 	padding: 2em;
 	min-height: 20em;
+	border: 1px black solid;
+	background-image: url("../images/travelgirl.jpg");
+
 }
+
+
+
 
 
 
@@ -120,24 +136,30 @@ a {
 	color: #fff;
 	height: 80vh;	
 
+
 }
 #splash div {
 	float:left;
 	margin-left: 4em;
-	width: 600px;
+	width: 500px;
+	padding: 0;
+
 }
+
+
 #slogan {
-	font-size: 22px;
-	font-weight: bold;
+	font-size: 1.2em;
+	/* font-weight: bold; */
 	margin: auto;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding: 0;
-}
+	font-family: 'Merriweather', sans-serif; 
+} 
 
 footer {
-	background-color: #FF957E;
-	border: 1px black solid;
+	/* background-color: #FF957E;
+	border: 1px black solid; */
 	padding: 20px;
 
 
