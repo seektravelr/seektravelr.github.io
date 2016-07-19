@@ -129,7 +129,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 	nav{
 		float: none;
 		width: auto;
@@ -177,6 +177,20 @@ footer {
 
  	}
 
+ 	header: {
+		float: none;
+		width: auto;
+		padding: 0;
+
 }
+
+
+	nav a {
+		/*float: none;
+		width: auto;
+		text-align: center;*/
+		margin: 0 1.6em .75em 0;
+
+	}
 
 
