@@ -11,6 +11,7 @@ body {
 	}
 header {
 	background-color: #000000;
+	padding: .5em;
 }
 nav {
 	text-align: center;
@@ -23,6 +24,7 @@ nav a {
 	color: #eeeeee;
 	display: inline-block;
 	font-size: 1em;
+	padding: .5em;
 }
 nav a:hover {
 	color: #e6005c;
@@ -179,7 +181,7 @@ footer {
 	}
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 638px){
  	body {
  		font-size: 16px;
 
@@ -197,13 +199,23 @@ footer {
 		/*float: none;
 		width: auto;
 		text-align: center;*/
-		margin: 0 1.6em .75em 0;
+		nav a {
+		float: none;
+		margin: 0 1em;
 
 	}
 	h1 {
 		margin: none;
 		float: none;
 
+
 	}
+#splash div {
+	float:left;
+	margin-left: 4em;
+	width: 35.21%;
+	padding: 0;
+}
+
 
 }
