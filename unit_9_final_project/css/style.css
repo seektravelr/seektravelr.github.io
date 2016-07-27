@@ -8,16 +8,19 @@ body {
 	color: #333333;
 	line-height: 1.3;
 	text-align: center;
-	}
+}
+
 header {
 	background-color: #000000;
 	padding: .5em;
 }
+
 nav {
 	text-align: center;
 	padding: 1em;
 	float: right;
 }
+
 nav a {
 	margin-left: 1em;
 	margin-right: 1em;
@@ -26,9 +29,11 @@ nav a {
 	font-size: 1em;
 	padding: .5em;
 }
+
 nav a:hover {
 	color: #e6005c;
 }
+
 section {padding: 3em 0;}
 
 ul {
@@ -40,6 +45,7 @@ ul {
 	margin: auto;
 	margin-top: 2em;
 }
+
 h1 {
 	color: #eeeeee;
 	font-size: 3em;
@@ -50,6 +56,7 @@ h1 {
 	float: left;
 	margin-left: 1em;
 }
+
 h2{
 	font-size: 1.5em;
 	margin-top: 1em;
@@ -58,6 +65,7 @@ h2{
 	display: inline-block;
 	font-family: 'Merriweather', sans-serif; 
 }
+
 p {
 	font-weight: bold;
 	font-size: 1em;
@@ -67,6 +75,7 @@ p {
 	letter-spacing: 1px;
 	font-family: 'Droid Sans', serif;
 }
+
 a {
 	text-decoration: none;	
 }
@@ -93,7 +102,6 @@ a {
 
 img {
 	width: 100%;
-
 }
 
 #splash {
@@ -103,6 +111,7 @@ img {
 	color: #eeeeee;
 	height: 45vh;	
 }
+
 #splash div {
 	float:left;
 	margin-left: 4em;
@@ -129,137 +138,118 @@ img {
 
 footer {
 	padding: 1em;
-
 }
 
 @media only screen and (max-width: 1018px) {
 	nav{
 		float: none;
 		width: auto;
-	
 	}
 
 	nav a {
 		float: none;
 		margin: 0 1em;
-
 	}
 
 	h1 {
 		margin: none;
 		float: none;
-
 	}
 
 	header: {
 		float: none;
 		width: auto;
 		padding: 0;
-
-
 	}
 
 	body {
 		font-size: 16px;
-
 	}
+
 	main {
 		width: auto;
 		float: none;
-
 	}
 
 	#splash div {
 		display: block;
-
 	}
 
 	.destination {
 		float: none;
 		width: auto;
-
 	}
-
-
 }
 
 @media only screen and (max-width: 794px){
  	body {
  		font-size: 16px;
-
  	}
 
  	header: {
 		float: none;
 		width: auto;
 		padding: 0;
+	}
 
-}
+	#about {
+		width: 50%;
+		margin: auto;
+		/*padding-left: 6em;
+		padding-right: 6em;*/
+	}
 
-#about {
-	width: 50%;
-	margin: auto;
-	/*padding-left: 6em;
-	padding-right: 6em;*/
-}
-
-nav a {
+	nav a {
 		/*float: none;
 		width: auto;
 		text-align: center;*/
-		nav a {
 		float: none;
 		margin: 0 1em;
-
+		display: block;
+		width: 100%;
 	}
+
 	h1 {
 		margin: none;
 		float: none;
-
-
 	}
-#splash div {
-	float:left;
-	margin-left: 4em;
-	width: 35.21%;
-	padding: 0;
-}
 
+	#splash div {
+		float:left;
+		margin-left: 4em;
+		width: 35.21%;
+		padding: 0;
+	}
+}
 
 @media only screen and (max-width: 548px){
  	body {
  		font-size: 16px;
-
  	}
 
  	header: {
 		float: none;
 		width: auto;
 		padding: 0;
+	}
 
-}
-
-nav a {
+	nav a {
 		/*float: none;
 		width: auto;
 		text-align: center;*/
-		nav a {
 		float: none;
 		margin: 0 1em;
 	}
 
-#splash div {
-	width: 80%;
-	padding: 0;
-	height: 5%;
-	float: none;
+	#splash div {
+		width: 80%;
+		padding: 0;
+		height: 5%;
+		float: none;
+	}
 
-}
-
-#slogan {
-	font-size: .2em;
-	
-	
-} 
+	#slogan {
+	/*	font-size: .2em;*/
+	} 
 
 }
